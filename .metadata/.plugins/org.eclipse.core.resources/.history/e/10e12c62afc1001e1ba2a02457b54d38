@@ -1,0 +1,10 @@
+package com.task1;
+
+public class Demo {
+	public static void main(String[] args) {
+		Employee e1= new Employee("Ramesh","Hyderabad");
+		Employee e2= new Employee("Rama","Telangana");
+		Employee e3= new Employee("Ramesh","Secundrabad");
+	}
+
+}

@@ -1,0 +1,12 @@
+127.0.0.1 - - [09/Feb/2024:12:20:19 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:20:20 +0530] "GET /Demo_Request/ HTTP/1.1" 200 491
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:20:20 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:20:33 +0530] "GET /Demo_Request/fetch?username=rama&password=krishna HTTP/1.1" 404 773
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:21:07 +0530] "GET /Demo_Request/fetch?username=rama&password=fhjg HTTP/1.1" 404 773
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:21:17 +0530] "GET /Demo_Request/fetch?username=rama&password=hhh HTTP/1.1" 404 773
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:22:46 +0530] "GET /Demo_Request/fetch?username=rama&password=krishna HTTP/1.1" 404 773
+127.0.0.1 - - [09/Feb/2024:12:24:31 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:24:31 +0530] "GET /Demo_Request/ HTTP/1.1" 200 491
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:24:47 +0530] "GET /Demo_Request/fetch?username=ramabnb+&password=nhvmjg%2C HTTP/1.1" 500 49
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:24:54 +0530] "GET /Demo_Request/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [09/Feb/2024:12:25:08 +0530] "GET /Demo_Request/fetch?username=rama&password=krishna HTTP/1.1" 200 67

@@ -1,0 +1,23 @@
+package com.task;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class Test11 {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+Connection con=
+DriverManager.getConnection("jdbc:mysql://@localhost:3306/task","root","ramakrishna@9182");
+
+//PreparedStatement pst=con.prepareStatement("create table student11(sid int,sname varchar(10))");
+PreparedStatement pst=con.prepareStatement("Insert into student11 values(?,?)");
+pst.setInt(1,1001);
+pst.setString(2, "rama");
+pst.executeUpdate();
+con.close();
+System.out.println("tabel is Updated successfully");
+	}
+
+}

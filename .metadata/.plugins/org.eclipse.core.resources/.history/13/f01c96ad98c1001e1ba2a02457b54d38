@@ -1,0 +1,15 @@
+package com.task;
+import java.util.*;
+public class IteratorDemo {
+public static void main(String[] args) {
+	ArrayList<String> s = new ArrayList<String>();
+	s.add("Rama");
+	s.add("Rohit");
+	s.add("Lakshmi");
+	//Collections.sort(s);
+	Iterator itr = s.iterator();
+	while(itr.hasNext()) {
+		System.out.println(itr.next()+" ");
+	}
+}
+}

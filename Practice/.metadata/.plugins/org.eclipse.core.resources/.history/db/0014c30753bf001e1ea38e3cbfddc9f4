@@ -1,0 +1,25 @@
+package com.practice;
+
+class Student {
+	int stdId;
+	String stdName;
+	String stdAddress;
+	Student(int stdId, String stdName, String stdAddress) {
+		 this.stdId = stdId;
+		 this.stdName = stdName;
+		 this.stdAddress = stdAddress;
+	}
+	public void resultInfo() {
+		System.out.println(this.stdId+" "+this.stdName+" "+this.stdAddress);
+	}
+}
+
+public class ParameterisedConstructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s = new Student(101, "Rama", "Hyderabad");
+		s.resultInfo();
+	}
+
+}

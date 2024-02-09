@@ -1,0 +1,18 @@
+package com.task.services;
+
+import java.sql.SQLException;
+
+import com.task.bean.EmployeeBean;
+import com.task.dao.EmployeeDaoImpl;
+
+public class EmployeeServiceImpl implements IEmployeeService{
+
+
+	@Override
+	public void insertEmployee(EmployeeBean bean) throws ClassNotFoundException, SQLException {
+		// TODO Auto-generated method stub
+		EmployeeDaoImpl dao= new EmployeeDaoImpl();
+		dao.insertEmployee(bean);
+	}
+
+}

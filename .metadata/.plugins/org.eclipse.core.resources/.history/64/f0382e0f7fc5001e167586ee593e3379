@@ -1,0 +1,12 @@
+package com.task.util;
+
+import java.util.Scanner;
+
+public class Demo_CRUD {
+public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Select Your Option");
+	System.out.println("1. Insert employee data");
+	System.out.println("2. Upadate employee data");
+	System.out.println("3. ");
+}

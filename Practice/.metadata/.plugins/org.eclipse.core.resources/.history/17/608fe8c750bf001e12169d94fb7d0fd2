@@ -1,0 +1,22 @@
+package com.practice;
+
+public class Key1 {
+	final int a = 10;//it is always constant we cant change
+	void displayInfo()
+	{
+		System.out.println("a value is ="+a);
+	}
+	final void showInfo() {
+		System.out.println("This is Final Method");
+	}
+}
+class Test1 extends Demo1{
+	
+}
+public class Demo1
+{
+	public static void main(String[] args)
+	{
+		Test1 t=new Test1();
+	}
+}

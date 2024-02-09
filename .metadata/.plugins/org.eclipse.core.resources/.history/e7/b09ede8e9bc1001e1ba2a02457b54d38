@@ -1,0 +1,26 @@
+package com.task;
+import java.util.*;
+
+class Employee implements Comparable<Employee>{
+	String name;
+	Employee(String name){
+		this.name = name;
+	}
+
+	@Override
+	public int compareTo(Employee o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
+public class Employee1{
+	public static void main(String[] args) {
+		ArrayList<Employee> a = new ArrayList<Employee>();
+	a.add(new Employee("Rama"));
+	a.add(new Employee("krishna"));
+	a.add(new Employee("Bhairava"));
+	System.out.println(a);
+	}
+	
+}

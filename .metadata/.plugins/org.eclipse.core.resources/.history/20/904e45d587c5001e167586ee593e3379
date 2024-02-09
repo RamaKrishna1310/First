@@ -1,0 +1,15 @@
+package com.task.dao;
+
+import com.task.bean.EmployeeBean;
+
+public class EmployeeDaoImpl implements IEmployeeDao{
+
+	@Override
+	public void insertEmployee(EmployeeBean bean) {
+		EmployeeDaoImpl dao = new EmployeeDaoImpl();
+		EmployeeBean bean1=new EmployeeBean();
+		dao.insertEmployee(bean1);
+		
+	}
+
+}

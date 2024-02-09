@@ -1,0 +1,13 @@
+package com.task;
+import java.util.*;
+
+public class LinkedListDemo {
+	public static void main(String[] args) {
+		List i = new LinkedList();
+		i.add(10);
+		i.add("Rama");
+		i.add("Hyderabad");
+		for(int l=0;l<i.size();l++)
+		System.out.println(i);
+	}
+}

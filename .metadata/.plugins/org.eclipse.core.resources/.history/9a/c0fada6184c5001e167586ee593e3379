@@ -1,0 +1,14 @@
+package com.task.services;
+
+import com.task.bean.EmployeeBean;
+
+public class EmployeeServiceImpl implements IEmployeeService{
+
+
+	@Override
+	public void insertEmployee(EmployeeBean bean) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
